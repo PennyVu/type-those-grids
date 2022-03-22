@@ -1,0 +1,55 @@
+html {
+  box-sizing: border-box;
+  line-height: 1.5;
+  padding: 1em;
+  font-family: Merriweather, serif;
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: inherit;
+}
+
+body {
+  margin: 0;
+}
+
+div h2 + p {
+  margin: 0;
+  font-size: 1.5rem;
+  grid-column: 1;
+  grid-row: 2;
+  z-index: 1;
+}
+
+.banner {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 4rem;
+}
+
+.banner img {
+  grid-column: 1 / -1;
+  grid-row: 1 / -1;
+}
+
+h1, h2 {
+  font-size: 1.8rem;
+  font-style: italic;
+}
+
+dl {
+  display: grid;
+  grid-auto-columns: 1fr 1fr 1fr;
+  grid-auto-rows: 1fr;
+}
+
+img {
+  width: 100%;
+}
+
+dl dt {
+  font-family: Merriweather, serif;
+  font-style: italic;
+}
