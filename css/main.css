@@ -49,8 +49,8 @@ div {
 
 .banner-img {
   grid-area: banner;
-  grid-column: 1 / -1
-  grid-rows: 1;
+  grid-column: 1 / -1;
+  grid-row: 1;
 }
 
 h1 {
@@ -87,11 +87,11 @@ img {
 }
 
 header {
-  padding: 0rem;
+  padding: 0;
   display: grid;
   grid-template-columns: 1fr 1fr 1fr;
   grid-template-rows: 1fr;
-  grid-template-areas: "banner banner banner"
+  grid-template-areas: "banner banner banner";
   list-style: none;
 }
 
